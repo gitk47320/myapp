@@ -1,5 +1,6 @@
 <%= form_with model: @user, local: true do |f| %>
-  <%= f.email_field :email %>
-  <%= f.password_field :password %>
+  <div id = "login">
+    <%= javascript_pack_tag 'login' %>
+  </div>
   <%= f.submit %>
 <% end %>
