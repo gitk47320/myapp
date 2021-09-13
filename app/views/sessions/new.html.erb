@@ -1,6 +1,5 @@
-<%= form_with model: @user, local: true do |f| %>
-  <div id = "login">
-    <%= javascript_pack_tag 'login' %>
-  </div>
-  <%= f.submit %>
+<%= form_with(model: @user, url: login_path, method: :post) do %>
+  <div id="login"></div>
 <% end %>
+
+<%= javascript_pack_tag 'login' %>

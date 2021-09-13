@@ -1,9 +1,19 @@
 <template>
-  <div id="login">
-    <input type="email"
-      name="email">
-    <input type="password"
-      name="password">  
+  <div>
+    <v-text-field
+      label="email"
+      name="email"
+      type="email">
+    </v-text-field>
+    <v-text-field
+      label="password"
+      name="password"
+      type="password">
+    </v-text-field>
+    <v-btn
+      name="submit"
+      type="submit"
+    >ログインする</v-btn>
   </div>
 </template>
 
@@ -15,7 +25,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
