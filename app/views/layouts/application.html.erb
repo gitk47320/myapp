@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Myapp</title>
+    <title>課題図書管理</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <div id = 'header'></div>
     <%= yield %>
   </body>
+  <%= javascript_pack_tag 'header' %>
 </html>
