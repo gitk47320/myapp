@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <v-app>
-      <v-app-bar color="light-blue accent-3">
-        <v-app-bar-title>課題図書管理システム</v-app-bar-title>
-        <v-spacer></v-spacer>
-        <!-- メニューリンクを書いていく -->
-      </v-app-bar>
-    </v-app>
-  </div>
+  <v-app>
+    <v-app-bar color="light-blue accent-3">
+      <v-app-bar-title>課題図書管理システム</v-app-bar-title>
+      <v-spacer></v-spacer>
+      <!-- メニューリンクを書いていく -->
+    </v-app-bar>
+  </v-app>
 </template>
 
 <script>
