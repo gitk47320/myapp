@@ -52,6 +52,4 @@ export default {
   text-align: center;
   font-size: 32px;
 }
-
-
 </style>
