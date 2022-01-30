@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_09_15_143551) do
   create_table "books", force: :cascade do |t|
     t.string "title", null: false
     t.string "description"
+    t.boolean "lending", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
