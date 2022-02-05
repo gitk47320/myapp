@@ -3,6 +3,7 @@ class TopController < ApplicationController
   before_action :logged_in_user
 
   def top
-    render 'top'
+    @books = Book.all
+    render 'top', locals: { books: @books }
   end
 end

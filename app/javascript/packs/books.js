@@ -9,6 +9,7 @@ const vuetify = new Vuetify();
 document.addEventListener('DOMContentLoaded', () => {
   new Vue({
     el: '#books',
+    render: h => h(Books, { props: document.getElementById("books").dataset }),
     vuetify,
     components: { Books },
     template: '<Books/>'

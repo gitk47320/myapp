@@ -3,7 +3,7 @@ class CreateBooks < ActiveRecord::Migration[6.0]
     create_table :books do |t|
       t.string :title, null: false
       t.string :description
-      t.boolean :lending, default: false
+      t.string :status, null: false
       t.timestamps
     end
   end
